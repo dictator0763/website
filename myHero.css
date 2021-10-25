@@ -1,0 +1,145 @@
+html, body{
+	font-family: "Garamond", serif;
+	margin:0;
+	color: #4d4d4d;
+
+}
+
+.bord{
+	background-color: black;
+	padding: 10px 0px;
+	margin:0;
+	border-radius: 0px;
+}
+.bg{
+	background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/12/0aa31fc0a24a96d3abfcc4abdd547e50-details.jpg');
+	transform: scale(1);
+	transition: 500ms ease-in;
+}
+
+.bg:hover{
+transform: scale(1.02);
+}
+
+header{
+	
+	padding: 10px 100px;
+	font-color: #d9d9d9;
+	text-align: center;
+}
+
+header h1{
+	font-family: "Copperplate", fantasy;
+	font-size: 60px;
+	color: #efefef;
+	text-shadow: 0px 5px 20px black;
+
+}
+
+.content{
+
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header img{
+	border-radius: 200px;
+	height:200px;
+	width:200px;
+	border:8px outset white;
+
+}
+
+img.big-image{
+	align-items: center;
+		border-radius: 200px;
+	height:150px;
+	width:150px;
+	border:5px ridge grey;
+	max-width: 100%;
+	transform: scale(1);
+	transition: 250ms ease-in;
+}
+
+img.big-image:hover{
+	border:5px ridge #e6e6e6;
+	transform: scale(1.05);
+}
+
+p.caption{
+	font-size: 15px;
+	color:grey;
+	font-style: italic;
+}
+
+ul.names{
+	padding: 0px 40px;
+}
+
+footer{
+	margin-top:20px;
+	padding: 10px 0px;
+	background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/12/0aa31fc0a24a96d3abfcc4abdd547e50-details.jpg');
+	color: white;
+
+}
+
+footer ul{
+		list-style: none;
+}
+.wrapper{
+	background-image: url('https://i.pinimg.com/originals/bd/af/76/bdaf7600ad567b8251d9951c5e397420.jpg');	
+
+}
+
+h2{
+	background-color: grey;
+	padding: 5px 20px;
+	margin: 5px 0;
+	border-radius: 10px;
+	font-size: 20px;
+	color: black;
+	border: 2px solid white;
+}
+
+
+p{
+	padding: 5px 10px;
+	font-size: 18px;
+	transform: scale(1);
+	transition: 250ms ease-in;
+}
+
+p:hover{
+	color: black;
+	transform: scale(1.02);
+}
+
+ol{
+	font-size: 16px;
+	transform: scale(1);
+	transition: 250ms ease-in;
+}
+
+ol:hover{
+	color: black;
+	transform: scale(1.02);
+}
+
+ul{
+	font-size: 16px;
+	transform: scale(1);
+	transition: 250ms ease-in;
+}
+
+ul:hover{
+	color: black;
+	transform: scale(1.02);
+}
+
+footer ul:hover{
+	transform: scale(1);
+	color: white;
+}
+
